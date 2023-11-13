@@ -120,13 +120,14 @@ section {
 
 .picture {
   display: flex;
-  width: 200px;
-  height: 200px;
-  margin: auto 0;
+  justify-content: center;
+  align-items: center;
 }
 
 .my-picture {
   border-radius: 50%;
+  width: 380px;
+  height: 400px;
 }
 
 .highlight {
@@ -230,8 +231,6 @@ section {
 #about {
   position: relative;
   border-bottom: 2px solid black;
-  /* display: flex;
-  flex-wrap: wrap; */
 }
 
 .section__text__p1 {
@@ -472,7 +471,6 @@ article .icon {
 /* FOOTER SECTION */
 
 footer {
-  height: 26vh;
   margin: 0 1rem;
 }
 
@@ -512,7 +510,7 @@ footer p {
     margin: 0.4rem;
   }
   .contact-info-container p {
-    font-size: x-small;
+    font-size: small;
   }
   .contact-icon {
     height: 1.5rem;
@@ -520,7 +518,39 @@ footer p {
   .email-icon {
     height: 2rem;
   }
+
+  /* changing profile picture size  */
+  #hero {
+    gap: 0rem;
+    padding: 0;
+    padding-bottom: 5vh;
+    border-bottom: 2px solid black;
+  }
+  .my-picture {
+    width: 275px;
+    height: 290px;
+  }
+
+  /* reduce the spacing between hero and about  */
+  #about {
+    padding-top: 4vh;
+  }
+
+  /* changing footer text  */
+  footer p {
+    text-align: center;
+    font-size: small;
+  }
+
+  /* fixing footer spacing  */
+  .contact-info-upper-container {
+    margin: 1.5rem auto;
+  }
+
 }
+
+
+
 
 /* for windowed screen */
 @media only screen and (min-width: 769px) and (max-width: 1200px) {
