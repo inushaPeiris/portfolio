@@ -431,6 +431,21 @@ article .icon {
   background-color: #101820;
 }
 
+.git-projects{
+  text-align: center;
+  /* border: solid red; */
+  margin-top: 8vh;
+  padding: 3px;
+}
+.git-projects a {
+  text-decoration: underline; 
+  font-weight: bold; 
+}
+
+.git-projects a:hover {
+  color: grey;
+}
+
 /* CONTACT */
 
 #contact {
@@ -477,6 +492,9 @@ footer {
 footer p {
   text-align: center;
 }
+
+
+
 
 /* Media Query */
 

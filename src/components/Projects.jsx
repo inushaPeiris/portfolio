@@ -20,6 +20,12 @@ export default function Projects(){
             <div className="projects-container">
                 {projects}
             </div>
+            
+            <div className="git-projects">
+                <a href="https://github.com/inushaPeiris?tab=repositories">
+                    View all projects
+                </a>
+            </div>
 
             <img src={Arrow} alt="Arrow icon" className="icon arrow"
                 onClick={() => window.location.href='./#contact'} />
