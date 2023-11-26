@@ -21,11 +21,6 @@ export default [
     },
     {
         id: 5,
-        subject: "SQL",
-        level: "Intermediate"
-    },
-    {
-        id: 6,
         subject: "TypeScript",
         level: "Beginer"
     },
