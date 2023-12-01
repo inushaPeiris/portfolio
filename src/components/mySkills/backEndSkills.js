@@ -7,7 +7,7 @@ export default [
     {
         id: 2,
         subject: "Express JS",
-        level: "Intermediate"
+        level: "Experienced"
     },
     {
         id: 3,
