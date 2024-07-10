@@ -1,6 +1,6 @@
 import React from "react"
 import '../styles.css'
-import Check from '../assets/check.png';
+import Check from '../assets/checkmark.png';
 
 export default function SkillCard(props){
     return(

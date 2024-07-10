@@ -1,7 +1,7 @@
 /*Global*/
 
 @import url("https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;500;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;500;700&family=Young+Serif&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;500;700&family=Young+Serif&display=swap");
 
 * {
   margin: 0;
@@ -10,7 +10,7 @@
 
 body {
   font-family: "AR One Sans", sans-serif;
-  background-color: #FEE715;
+  background-color: #ffffff;
 }
 
 html {
@@ -20,17 +20,22 @@ html {
 .page {
   display: flex;
   flex-direction: column;
-  align-items:center
+  align-items: center;
 }
 
 /* Text */
 .small-text {
-  color: #FEE715;
+  color: #555555;
 }
 
 .small-text-black {
   color: black;
   font-weight: 600;
+}
+
+.more-details {
+    color: #555555;
+
 }
 
 p {
@@ -128,6 +133,7 @@ section {
   border-radius: 50%;
   width: 380px;
   height: 400px;
+  /* border: 10px solid rgb(77, 77, 77); */
 }
 
 .highlight {
@@ -151,18 +157,6 @@ section {
   text-align: center;
 }
 
-/* .socials {
-  display: flex;
-  justify-content: center;
-  margin-top: 1rem;
-  gap: 1rem;
-}
-
-.socials .socials-img {
-  cursor: pointer;
-  height: 2rem;
-} */
-
 .socials {
   display: flex;
   justify-content: center;
@@ -177,7 +171,9 @@ section {
 }
 
 .socials .socials-img:hover {
-  transform: scale(1.2); /* Increase the size on hover, creating a zoom effect */
+  transform: scale(
+    1.2
+  ); /* Increase the size on hover, creating a zoom effect */
 }
 
 .hero-btns {
@@ -197,6 +193,10 @@ section {
 .btn-1,
 .btn-2 {
   border: #101820 0.1rem solid;
+}
+
+.btn-color-2 {
+    border: rgb(53, 53, 53) 0.1rem solid;
 }
 
 .btn-1:hover,
@@ -243,17 +243,25 @@ section {
 }
 
 .about-containers {
+    display: flex;
   gap: 2rem;
   flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.skill-containers {
+    margin-top: 7vh;
+    display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .about-details-container {
   justify-content: center;
   flex-direction: column;
-
 }
 
-.about-containers,
 .about-details-container {
   display: flex;
 }
@@ -264,14 +272,14 @@ section {
 */
 
 .text-container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 600px;
-  padding: 1.5rem;
-  border-radius: 2rem;
-  border: #101820 0.2rem solid;
-  border-color: #101820;
-  text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.15rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
 }
 
 .arrow {
@@ -280,27 +288,17 @@ section {
   bottom: 2.5rem;
 }
 
-.details-container-0 {
-  padding: 1.5rem;
-  flex: 1;
-  /*background: #101820;*/
-  border-radius: 2rem;
-  border: #101820 0.2rem solid;
-  border-color: #101820;
-  text-align: center;
-}
-
 .icon {
   cursor: pointer;
   height: 2rem;
 }
 
 .icon.arrow {
-  transition: transform 0.3s ease; 
+  transition: transform 0.3s ease;
 }
 
 .icon.arrow:hover {
-  transform: scale(1.5); 
+  transform: scale(1.5);
 }
 
 .section-container {
@@ -322,10 +320,18 @@ section {
 }
 
 .experience-sub-title {
-  color: #FEE715;
+    color: rgb(85, 85, 85);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
+}
+
+.project-name {
+    color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
 }
 
 .experience-details-container {
@@ -335,25 +341,26 @@ section {
 }
 
 /* project card, 2 skills cards */
-.details-container {
-  padding: 1.5rem;
-  flex: 1 0 250px;
-  border-radius: 2rem;
-  border: #101820 0.1rem solid;
-  border-color: #101820;
-  text-align: center;
-  max-width: 250px;
-}
 
 .details-container-1 {
-  padding: 1.5rem;
-  flex: 1;
-  background: #101820;
-  border-radius: 2rem;
-  border: #101820 0.1rem solid;
-  border-color: #101820;
-  text-align: center;
-  margin-top: 2rem;
+    flex: 1;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.15rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+.skill-details {
+    width: 30rem;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.15rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
 }
 
 .article-container {
@@ -362,7 +369,7 @@ section {
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2.5rem;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 article {
@@ -403,43 +410,45 @@ article .icon {
 }
 
 .color-container {
-  border-color: rgb(163, 163, 163);
-  background: #101820;
+      border-color: rgb(163, 163, 163);
+
+  background: #8a8c8d;
 }
 
 .project-img {
-  border-radius: 2rem;
+    border-radius: 2rem;
+    /* border: rgb(53, 53, 53) 0.12rem solid; */
+    border-color: rgb(163, 163, 163);
   width: 90%;
   height: 90%;
 }
 
 .project-title {
   margin: 1rem;
-  color: #FEE715;
+  color: rgb(85, 85, 85);
 }
 
 .project-btn {
-  color: #101820;
-  border-color: #FEE715;
-  background-color: #FEE715;
   cursor: pointer;
   margin: 5px;
+  color: black;
+  border-color: rgb(163, 163, 163);
 }
 
 .project-btn:hover {
-  color: #FEE715;
-  background-color: #101820;
+    background-color: black;
+    color: white;
 }
 
-.git-projects{
+.git-projects {
   text-align: center;
   /* border: solid red; */
   margin-top: 8vh;
   padding: 3px;
 }
 .git-projects a {
-  text-decoration: underline; 
-  font-weight: bold; 
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 .git-projects a:hover {
@@ -493,20 +502,17 @@ footer p {
   text-align: center;
 }
 
-
-
-
 /* Media Query */
 
 /* For mobile screens */
 @media only screen and (max-width: 768px) {
-
   /* no navbar and the line */
   nav {
     display: none;
   }
   #hero {
     border-top: none;
+    margin-top: 5rem;
   }
 
   /* make margin of section smaller */
@@ -544,10 +550,6 @@ footer p {
     padding-bottom: 5vh;
     border-bottom: 2px solid black;
   }
-  .my-picture {
-    width: 275px;
-    height: 290px;
-  }
 
   /* reduce the spacing between hero and about  */
   #about {
@@ -564,16 +566,12 @@ footer p {
   .contact-info-upper-container {
     margin: 1.5rem auto;
   }
-
 }
-
-
-
 
 /* for windowed screen */
 @media only screen and (min-width: 769px) and (max-width: 1200px) {
   /* no line under the navbar  */
   #hero {
-    border-top: none
+    border-top: none;
   }
 }

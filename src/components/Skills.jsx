@@ -1,13 +1,12 @@
 import React from "react"
 import '../styles.css'
 import Arrow from '../assets/arrow.png';
-import FrontEndSkills from './mySkills/frontEndSkills'
-import BackEndSkills from './mySkills/backEndSkills'
 import SkillCard from './SkillCard'
+import {frontendSkills, backendSkills, languageSkill, toolsAndTech, operatingSystems} from "./mySkills/skills"
 
 export default function Skills(){
 
-    const skills1 = FrontEndSkills.map(item => {
+    const frontend = frontendSkills.map(item => {
         return (
           <SkillCard 
             key = {item.id}
@@ -16,7 +15,34 @@ export default function Skills(){
         )
     })
 
-    const skills2 = BackEndSkills.map(item => {
+    const backend = backendSkills.map(item => {
+        return (
+          <SkillCard 
+            key = {item.id}
+            item = {item} 
+          />
+        )
+    })
+
+    const languages = languageSkill.map(item => {
+        return (
+          <SkillCard 
+            key = {item.id}
+            item = {item} 
+          />
+        )
+    })
+
+    const tools = toolsAndTech.map(item => {
+        return (
+          <SkillCard 
+            key = {item.id}
+            item = {item} 
+          />
+        )
+    })
+
+    const os = operatingSystems.map(item => {
         return (
           <SkillCard 
             key = {item.id}
@@ -30,17 +56,35 @@ export default function Skills(){
             <p class="section__text__p1">My Web Development</p>
             <h1 class="text">Skills</h1>
             <div class="experience-details-container">
-                <div class="about-containers">
-                    <div class="details-container-1">
+                <div class="skill-containers">
+                    <div class="skill-details">
                         <h2 class="experience-sub-title">Frontend Development</h2>
                         <div class="article-container">
-                            {skills1}
+                            {frontend}
                         </div>
                     </div>
-                    <div class="details-container-1">
+                    <div class="skill-details">
                         <h2 class="experience-sub-title">Backend Development</h2>
                         <div class="article-container">
-                            {skills2}
+                            {backend}
+                        </div>
+                    </div>
+                    <div class="skill-details">
+                        <h2 class="experience-sub-title">Programming Languages</h2>
+                        <div class="article-container">
+                            {languages}
+                        </div>
+                    </div>
+                    <div class="skill-details">
+                        <h2 class="experience-sub-title">Tools & Technologies</h2>
+                        <div class="article-container">
+                            {tools}
+                        </div>
+                    </div>
+                    <div class="skill-details">
+                        <h2 class="experience-sub-title">Operating Systems</h2>
+                        <div class="article-container">
+                            {os}
                         </div>
                     </div>
                 </div>

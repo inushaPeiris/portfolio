@@ -1,21 +1,25 @@
+import MGProject from "../../assets/projects/meme-generator.jpg"
+import Travel360 from "../../assets/projects/travel360.jpg"
+import TLProject from "../../assets/projects/todolist-app.jpg"
+
 export default [
     {
         id: 1,
-        img: "http://drive.google.com/uc?export=view&id=1uBkZytnouAfN5MDUxaaU2urOomtrQ2Wz",
+        img: MGProject,
         name: "Meme Generator",
         github: "https://github.com/inushaPeiris/meme-generator",
         demo: "https://inushapeiris-meme-generator.netlify.app/"
     },
     {
         id: 2,
-        img: "http://drive.google.com/uc?export=view&id=1zCYIivVDIALx98jHx3Ku8BMz1JemyAjn",
-        name: "Online Todo-List",
+        img: TLProject,
+        name: "Online Todo List",
         github: "https://github.com/inushaPeiris/todo-list",
         demo: "https://inushapeiris-todo-list.netlify.app/"
     },
     {
         id: 3,
-        img: "http://drive.google.com/uc?export=view&id=1AelaV5DC2Jo4rUPNWJWXOR0npTyIB1Gz",
+        img: Travel360,
         name: "Travel360",
         github: "https://github.com/inushaPeiris/Travel360",
         demo: "https://www.youtube.com/watch?v=8BiP5rn5ohg&ab_channel=InushaPeiris"

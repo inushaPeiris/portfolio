@@ -1,6 +1,7 @@
 import React from "react"
 import '../styles.css'
 import ProfilePic from '../assets/pro-pic.jpeg';
+// import ProfilePicW from '../assets/pro-pic-w.jpg';
 import LinkedIn from '../assets/linkedin.png';
 import GitHub from '../assets/github.png';
 import Arrow from '../assets/arrow.png';
@@ -14,7 +15,7 @@ export default function Hero(){
 
             <div className="highlight">
                 <h1 className="name">Inusha Peiris</h1>
-                <p className="role">Full-Stack Developer</p>
+                <p className="role">Software Engineer</p>
                 <div className="hero-btns">
                     <button className="btn btn-1" onClick= {() => window.open('https://drive.google.com/uc?export=view&id=10X3_g_-yxyteongo7fk5eQ2lGUDW9__-')}>
                     My CV

@@ -14,7 +14,7 @@ export default function Projects(){
 
     return(
         <section id="projects">
-            <p className="section__text__p1">Browse My Recent</p>
+            <p className="section__text__p1">Check out some of my fun</p>
             <h1 className="text">Projects</h1>
             
             <div className="projects-container">

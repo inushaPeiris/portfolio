@@ -12,38 +12,29 @@ export default function About(){
             <div className="section-container">
                 <div className="about-details-container">
                     <div className="about-containers">
-                        <div className="details-container-0">
+                        <div className="details-container-1">
                             <img src={EducationImg} alt="Education icon" className="icon"/>
                             <h3 className="small-text-black">Education</h3>
-                            <p className="small-text-black">
+                            <br></br>
+                            <p className="small-text-black more-details">
                                 Bachelor of Software Engineering Honours (UG)
                             </p>
                         </div>
-                        <div className="details-container-0">
+                        <div className="details-container-1">
                             <img src={ExperienceImg} alt="Experience icon" className="icon"/>
                             <h3 className="small-text-black">Experience</h3>
-                            <p className="small-text-black">
-                            2+ years of experience in web development <br />
+                            <br></br>
+                            <p className="small-text-black more-details">
+                            2+ years of experience (with 6 months of industrial experience) in web development <br />
                             with a strong focus on front-end and back-end
                             technologies.
                             </p>
                         </div>
-                        <div className="text-container">
-                            <p className="small-text-black">
-                                I am driven by a love for coding and problem-solving, 
-                                constantly seeking opportunities to expand my skill set 
-                                and apply my knowledge to real-world projects. As a web developer, 
-                                I've had the privilege of diving into the ever-evolving realms of 
-                                HTML, CSS, JavaScript, and beyond, exploring innovative ways to bring 
-                                ideas to life on the web.
-                            </p><br />
-                            <p className="small-text-black">
-                                My goal is not just to build websites and applications, 
-                                but to craft seamless and user-centric digital solutions that 
-                                leave a lasting impression. I'm excited about the prospect of 
-                                collaborating with experienced professionals, learning from 
-                                their expertise, and contributing my enthusiasm and dedication 
-                                to a dynamic team.
+                        <div className="details-container-1">
+                            <p className="small-text-black more-details">
+                            I am passionate about coding and problem-solving. I enjoy learning new technologies and continuously 
+                            expanding my skill set. My journey in web development has honed my ability to tackle complex challenges, 
+                            and I am always eager to take on new projects that push the boundaries of my knowledge.
                             </p>
                         </div>
                     </div>
