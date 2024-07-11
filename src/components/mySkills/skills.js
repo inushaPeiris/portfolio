@@ -34,7 +34,7 @@ export const backendSkills = [
     },
     {
         id: 2,
-        subject: "Postman",
+        subject: "Node JS",
         level: "Experienced"
     },
     {
@@ -70,17 +70,32 @@ export const languageSkill = [
 export const toolsAndTech = [
     {
         id: 1,
-        subject: "Github",
+        subject: "Git",
         level: "Experienced"
     },
     {
         id: 2,
-        subject: "Jira",
+        subject: "Github",
         level: "Experienced"
     },
     {
         id: 3,
+        subject: "Jira",
+        level: "Experienced"
+    },
+    {
+        id: 4,
+        subject: "Postman",
+        level: "Experienced"
+    },
+    {
+        id: 5,
         subject: "VS Code",
+        level: "Experienced"
+    },
+    {
+        id: 6,
+        subject: "MySQL Workbench",
         level: "Experienced"
     }
 ];
