@@ -4,6 +4,7 @@ import ProfilePic from '../assets/pro-pic.jpeg';
 // import ProfilePicW from '../assets/pro-pic-w.jpg';
 import LinkedIn from '../assets/linkedin.png';
 import GitHub from '../assets/github.png';
+import Medium from '../assets/medium.png';
 import Arrow from '../assets/arrow.png';
 
 export default function Hero(){
@@ -32,6 +33,10 @@ export default function Hero(){
                     <a href="https://github.com/inushaPeiris" target="_blank" 
                         rel="noopener noreferrer">
                         <img src={GitHub} alt="" className="socials-img" />
+                    </a>
+                    <a href="https://medium.com/@inushaumayanthapeiris" target="_blank" 
+                        rel="noopener noreferrer">
+                        <img src={Medium} alt="" className="socials-img" />
                     </a>
                 </div>
             </div>
