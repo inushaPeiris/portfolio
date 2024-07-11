@@ -18,7 +18,7 @@ export default function Hero(){
                 <h1 className="name">Inusha Peiris</h1>
                 <p className="role">Software Engineer</p>
                 <div className="hero-btns">
-                    <button className="btn btn-1" onClick= {() => window.open('https://drive.google.com/file/d/1t3w02EiPDDv5JNjRu5Z7rQLajSQLxOjt/view?usp=sharing')}>
+                    <button className="btn btn-1" onClick= {() => window.open('https://drive.google.com/file/d/1kdlnip4FeacJyuzxoqgjGKHSPqTsKtmE/view?usp=sharing')}>
                     My CV
                     </button>
                     <a href="#contact" className="btn btn-2">
