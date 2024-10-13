@@ -24,7 +24,6 @@ export default function Hero(){
                         Contact Me
                     </a>
                 </div>
-
                 <div className="socials">
                     <a href="https://www.linkedin.com/in/inusha-peiris-504391225/" target="_blank" rel="noopener noreferrer">
                         <img src={LinkedIn} alt="" className="socials-img" />

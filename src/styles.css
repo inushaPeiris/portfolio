@@ -34,8 +34,7 @@ html {
 }
 
 .more-details {
-    color: #555555;
-
+  color: #555555;
 }
 
 p {
@@ -43,7 +42,8 @@ p {
 }
 
 /* TRANSITION */
-a, .btn {
+a,
+.btn {
   transition: all 300ms ease;
 }
 
@@ -196,7 +196,7 @@ section {
 }
 
 .btn-color-2 {
-    border: rgb(53, 53, 53) 0.1rem solid;
+  border: rgb(53, 53, 53) 0.1rem solid;
 }
 
 .btn-1:hover,
@@ -243,15 +243,15 @@ section {
 }
 
 .about-containers {
-    display: flex;
+  display: flex;
   gap: 2rem;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
 .skill-containers {
-    margin-top: 7vh;
-    display: flex;
+  margin-top: 7vh;
+  display: flex;
   gap: 2rem;
   flex-wrap: wrap;
   justify-content: center;
@@ -272,14 +272,14 @@ section {
 */
 
 .text-container {
-    padding: 1.5rem;
-    margin-top: 2rem;
-    flex: 1;
-    background: white;
-    border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.15rem solid;
-    border-color: rgb(163, 163, 163);
-    text-align: center;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.15rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
 }
 
 .arrow {
@@ -320,14 +320,14 @@ section {
 }
 
 .experience-sub-title {
-    color: rgb(85, 85, 85);
+  color: rgb(85, 85, 85);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
 }
 
 .project-name {
-    color: rgb(85, 85, 85);
+  color: rgb(85, 85, 85);
   font-weight: 600;
   font-size: 1.3rem;
   margin-bottom: 2rem;
@@ -343,24 +343,24 @@ section {
 /* project card, 2 skills cards */
 
 .details-container-1 {
-    flex: 1;
-    padding: 1.5rem;
-    margin-top: 2rem;
-    background: white;
-    border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.15rem solid;
-    border-color: rgb(163, 163, 163);
-    text-align: center;
+  flex: 1;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.15rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
 }
 
 .skill-details {
-    width: 30rem;
-    padding: 1.5rem;
-    background: white;
-    border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.15rem solid;
-    border-color: rgb(163, 163, 163);
-    text-align: center;
+  width: 30rem;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.15rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
 }
 
 .article-container {
@@ -410,15 +410,15 @@ article .icon {
 }
 
 .color-container {
-      border-color: rgb(163, 163, 163);
+  border-color: rgb(163, 163, 163);
 
   background: #8a8c8d;
 }
 
 .project-img {
-    border-radius: 2rem;
-    /* border: rgb(53, 53, 53) 0.12rem solid; */
-    border-color: rgb(163, 163, 163);
+  border-radius: 2rem;
+  /* border: rgb(53, 53, 53) 0.12rem solid; */
+  border-color: rgb(163, 163, 163);
   width: 90%;
   height: 90%;
 }
@@ -436,8 +436,8 @@ article .icon {
 }
 
 .project-btn:hover {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 
 .git-projects {
@@ -549,6 +549,7 @@ footer p {
     padding: 0;
     padding-bottom: 5vh;
     border-bottom: 2px solid black;
+    margin-top: 0;
   }
 
   /* reduce the spacing between hero and about  */
@@ -565,6 +566,11 @@ footer p {
   /* fixing footer spacing  */
   .contact-info-upper-container {
     margin: 1.5rem auto;
+  }
+
+  .my-picture {
+    width: 200px;
+    height: 208px;
   }
 }
 
