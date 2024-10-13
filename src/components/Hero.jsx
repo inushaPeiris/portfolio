@@ -1,4 +1,3 @@
-import React from "react"
 import '../styles.css'
 import ProfilePic from '../assets/pro-pic.jpeg';
 // import ProfilePicW from '../assets/pro-pic-w.jpg';
@@ -11,14 +10,14 @@ export default function Hero(){
     return(
         <section id="hero">
             <div className="picture">
-                <img src={ProfilePic} alt="my photo" class="my-picture" />
+                <img src={ProfilePic} alt="my photo" className="my-picture" />
             </div>
 
             <div className="highlight">
                 <h1 className="name">Inusha Peiris</h1>
                 <p className="role">Software Engineer</p>
                 <div className="hero-btns">
-                    <button className="btn btn-1" onClick= {() => window.open('https://drive.google.com/file/d/1kdlnip4FeacJyuzxoqgjGKHSPqTsKtmE/view?usp=sharing')}>
+                    <button className="btn btn-1" onClick= {() => window.open('https://drive.google.com/file/d/1PAOxzq4kRfkLbMlFDzaF2ZcVMal469Ke/view?usp=drive_link')}>
                     My CV
                     </button>
                     <a href="#contact" className="btn btn-2">

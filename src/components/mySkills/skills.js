@@ -6,12 +6,22 @@ export const frontendSkills = [
     },
     {
         id: 2,
-        subject: "Figma",
+        subject: "Next.js",
         level: "Experienced"
     },
     {
         id: 3,
+        subject: "Vue.js",
+        level: "Experienced" 
+    },
+    {
+        id: 3,
         subject: "MUI",
+        level: "Experienced"
+    },
+    {
+        id: 4,
+        subject: "Tailwind",
         level: "Experienced"
     },
     {
@@ -46,7 +56,7 @@ export const backendSkills = [
         id: 4,
         subject: "MongoDB",
         level: "Experienced"
-    }
+    },
 ];
 
 export const languageSkill = [
@@ -58,6 +68,11 @@ export const languageSkill = [
     {
         id: 2,
         subject: "TypeScript",
+        level: "Experienced"
+    },
+    {
+        id: 3,
+        subject: "Java",
         level: "Experienced"
     },
     {
@@ -81,6 +96,11 @@ export const toolsAndTech = [
     {
         id: 3,
         subject: "Jira",
+        level: "Experienced"
+    },
+    {
+        id: 2,
+        subject: "Figma",
         level: "Experienced"
     },
     {
